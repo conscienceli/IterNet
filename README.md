@@ -22,6 +22,22 @@ Fig.2 The structure of IterNet, which consists of one UNet and iteration of (N-1
 
 This work was supported by Council for Science, Technology and Innovation (CSTI), cross-ministerial Strategic Innovation Promotion Program (SIP), "Innovative AI Hospital System" (Funding Agency: National Institute of Biomedical Innovation, Health and Nutrition (NIBIOHN)).
 
+## Publication
+
+If you want to use this work, please consider to cite the following paper.
+
+```
+@article{osaka_2019_retina_segmentation,
+  title={},
+  author={...},
+  journal={...},
+  year={2019},
+  doi={...}
+}
+```
+
+
+
 ## License
 
 This project is licensed under the MIT License
