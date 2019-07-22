@@ -58,4 +58,4 @@ This work was supported by Council for Science, Technology and Innovation (CSTI)
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
