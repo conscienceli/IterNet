@@ -44,7 +44,7 @@ If you want to use this work, please consider to cite the following paper.
 
 ```
 @article{osaka_2019_retina_segmentation,
-  title={},
+  title={IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks},
   author={...},
   journal={...},
   year={2019},
