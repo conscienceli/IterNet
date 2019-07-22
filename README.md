@@ -1,6 +1,6 @@
 # IterNet
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/laddernet-multi-path-networks-based-on-u-net/retinal-vessel-segmentation-on-drive)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-drive?p=laddernet-multi-path-networks-based-on-u-net)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/laddernet-multi-path-networks-based-on-u-net/retinal-vessel-segmentation-on-chase_db1)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-chase_db1?p=laddernet-multi-path-networks-based-on-u-net)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/laddernet-multi-path-networks-based-on-u-net/retinal-vessel-segmentation-on-drive)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-drive?p=laddernet-multi-path-networks-based-on-u-net)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/laddernet-multi-path-networks-based-on-u-net/retinal-vessel-segmentation-on-chase_db1)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-chase_db1?p=laddernet-multi-path-networks-based-on-u-net)[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/recurrent-residual-convolutional-neural/retinal-vessel-segmentation-on-stare)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-stare?p=recurrent-residual-convolutional-neural)
 
 ## High-Accuracy Retinal Image Segmentation Utilizing Hidden Information from the Vessel Network
 
