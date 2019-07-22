@@ -18,9 +18,25 @@ Fig.1 IterNet analyzes the vessel network in a retinal image for fine segmentati
 
 Fig.2 The structure of IterNet, which consists of one UNet and iteration of (N-1) mini-UNets.
 
-## Acknowledgements
+## USAGE
 
-This work was supported by Council for Science, Technology and Innovation (CSTI), cross-ministerial Strategic Innovation Promotion Program (SIP), "Innovative AI Hospital System" (Funding Agency: National Institute of Biomedical Innovation, Health and Nutrition (NIBIOHN)).
+Dataset should be placed at `./data/`, related configuration can be modified in `./utils/prepare_dataset.py`.
+
+Training:
+
+```bash
+python train.py
+```
+
+Prediction:
+
+```bash
+python predict.py
+```
+
+Models will be placed at `./trained_model/` and results will be saved at `./output/`.
+
+Three examples are gived by jupyter notebooks.
 
 ## Publication
 
@@ -36,7 +52,9 @@ If you want to use this work, please consider to cite the following paper.
 }
 ```
 
+## Acknowledgements
 
+This work was supported by Council for Science, Technology and Innovation (CSTI), cross-ministerial Strategic Innovation Promotion Program (SIP), "Innovative AI Hospital System" (Funding Agency: National Institute of Biomedical Innovation, Health and Nutrition (NIBIOHN)).
 
 ## License
 
