@@ -2,7 +2,6 @@ import matplotlib
 
 matplotlib.use("Agg")
 from matplotlib import pyplot as plt
-# scikit learn
 from sklearn.metrics import roc_curve
 from sklearn.metrics import roc_auc_score
 from sklearn.metrics import confusion_matrix
@@ -15,18 +14,14 @@ import numpy as np
 import pickle
 
 
-
 def evaluate(y_true, y_scores, dataset):
-    
     y_true = np.array(y_true)
     y_scores = np.array(y_scores)
 
     # Area under the ROC curve
     fpr, tpr, thresholds = roc_curve((y_true), y_scores)
     AUC_ROC = roc_auc_score(y_true, y_scores)
-    # test_integral = np.trapz(tpr,fpr) #trapz is numpy integration
     print("\nArea under the ROC curve: " + str(AUC_ROC))
-    # roc_curve = plt.figure()
     plt.plot(fpr, tpr, '-')
     plt.title('ROC curve', fontsize=14)
     plt.xlabel("FPR (False Positive Rate)", fontsize=15)
@@ -34,7 +29,6 @@ def evaluate(y_true, y_scores, dataset):
     plt.legend(loc="lower right")
     plt.xticks(fontsize=15)
     plt.yticks(fontsize=15)
-    # plt.savefig(path_experiment + "ROC.png")
 
     # Precision-recall curve
     precision, recall, thresholds = precision_recall_curve(y_true, y_scores)
@@ -42,15 +36,6 @@ def evaluate(y_true, y_scores, dataset):
     recall = np.fliplr([recall])[0]  # so the array is increasing (you won't get negative AUC)
     AUC_prec_rec = np.trapz(precision, recall)
     print("\nArea under Precision-Recall curve: " + str(AUC_prec_rec))
-    # prec_rec_curve = plt.figure()
-    # plt.plot(recall, precision, '-', label='Area Under the Curve (AUC = %0.4f)' % AUC_prec_rec)
-    # plt.title('Precision - Recall curve')
-    # plt.xlabel("Recall")
-    # plt.ylabel("Precision")
-    # plt.legend(loc="lower right")
-    # plt.xticks(fontsize=14)
-    # plt.yticks(fontsize=14)
-    # plt.savefig(path_experiment + "Precision_recall.png")
 
     # Confusion matrix
     threshold_confusion = 0.5
@@ -101,12 +86,8 @@ def evaluate(y_true, y_scores, dataset):
                     + "\nPRECISION: " + str(precision)
                     )
     file_perf.close()
-    # break
-#     index = index + 1
-#     plt.savefig('./log/experiments/' + dataset + "_comparative_ROC.png")
-#     # plt.savefig('./log/experiments/' + dataset + "_Precision_recall.png")
 
     plt.show()
-    
+
     with open(f'./output/{dataset}/auc.pickle', 'wb') as handle:
-        pickle.dump([fpr, tpr], handle, protocol=pickle.HIGHEST_PROTOCOL)      
+        pickle.dump([fpr, tpr], handle, protocol=pickle.HIGHEST_PROTOCOL)
