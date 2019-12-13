@@ -39,12 +39,13 @@ Three examples are gived by jupyter notebooks.
 If you want to use this work, please consider to cite the following paper.
 
 ```
-@article{osaka_2019_retina_segmentation,
-  title={IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks},
-  author={...},
-  journal={...},
-  year={2019},
-  doi={...}
+@misc{li2019iternet,
+    title={IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks},
+    author={Liangzhi Li and Manisha Verma and Yuta Nakashima and Hajime Nagahara and Ryo Kawasaki},
+    year={2019},
+    eprint={1912.05763},
+    archivePrefix={arXiv},
+    primaryClass={eess.IV}
 }
 ```
 
