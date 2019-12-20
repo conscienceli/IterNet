@@ -19,7 +19,7 @@ Fig.2 The structure of IterNet, which consists of one UNet and iteration of (N-1
 
 ## Usage
 
-Dataset should be placed at `./data/`, related configuration can be modified in `./utils/prepare_dataset.py`.
+Datasets should be placed at `./data/`, related configuration can be modified in `./utils/prepare_dataset.py`.
 
 Training:
 
@@ -35,11 +35,11 @@ python predict.py
 
 Models will be placed at `./trained_model/` and results will be saved at `./output/`.
 
-Three examples are gived by jupyter notebooks.
+Three examples are given by Jupiter notebooks.
 
 ## Publication
 
-If you want to use this work, please consider to cite the following paper.
+If you want to use this work, please consider citing the following paper.
 
 ```
 @misc{li2019iternet,
