@@ -3,6 +3,9 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iternet-retinal-image-segmentation-utilizing/retinal-vessel-segmentation-on-drive)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-drive?p=iternet-retinal-image-segmentation-utilizing)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iternet-retinal-image-segmentation-utilizing/retinal-vessel-segmentation-on-chase_db1)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-chase_db1?p=iternet-retinal-image-segmentation-utilizing)
 
+### Update
+* We release a pre-trained model.
+
 ## Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks
 
 Retinal vessel segmentation is of great significance for diagnosis of various blood-related diseases. To further improve the performance of vessel segmentation, we propose IterNet, a new model based on UNet, with the ability to find obscured details of the vessel from the segmented vessel image itself, rather than the raw input image. IterNet consists of multiple iterations of a mini-UNet, which can be 4X deeper than the common UNet. IterNet also adopts the weight-sharing and skip-connection features to facilitate training; therefore, even with such a large architecture, IterNet can still learn from merely 10~20 labeled images, without pre-training or any prior knowledge. IterNet achieves AUCs of 0.9816, 0.9851, and 0.9881 on three mainstream datasets, namely DRIVE, CHASE-DB1, and STARE, respectively, which currently are the best scores in the literature.
@@ -36,6 +39,13 @@ python predict.py
 Models will be placed at `./trained_model/` and results will be saved at `./output/`.
 
 Three examples are given by Jupiter notebooks.
+
+## Trained Model
+Here is a model trained on multiple datasets. Now I am using it as an universal model for retinal vessel extraction. In my test, it works well on new data even with very different brightness, color, etc.
+
+Enjoy fine-tunning!
+
+[https://drive.google.com/file/d/1N8Jd_h4FuxbN2-5ElL4FuLQu1Uo3NDuZ/view?usp=sharing](https://drive.google.com/file/d/1N8Jd_h4FuxbN2-5ElL4FuLQu1Uo3NDuZ/view?usp=sharing)
 
 ## Publication
 
