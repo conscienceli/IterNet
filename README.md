@@ -4,7 +4,7 @@
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/iternet-retinal-image-segmentation-utilizing/retinal-vessel-segmentation-on-chase_db1)](https://paperswithcode.com/sota/retinal-vessel-segmentation-on-chase_db1?p=iternet-retinal-image-segmentation-utilizing)
 
 ### Update
-* We release a pre-trained model.
+* We release pre-trained weights.
 
 ## Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks
 
@@ -40,12 +40,16 @@ Models will be placed at `./trained_model/` and results will be saved at `./outp
 
 Three examples are given by Jupiter notebooks.
 
-## Trained Model
-Here is a model trained on multiple datasets. Now I am using it as an universal model for retinal vessel extraction. In my test, it works well on new data even with very different brightness, color, etc.
+## Pretrained Weights
+Here is a model trained with multiple datasets. Now I am using it as an universal model for retinal vessel extraction. In my test, it works well on new data even with very different brightness, color, etc.
 
 Enjoy fine-tunning!
 
 [https://drive.google.com/file/d/1N8Jd_h4FuxbN2-5ElL4FuLQu1Uo3NDuZ/view?usp=sharing](https://drive.google.com/file/d/1N8Jd_h4FuxbN2-5ElL4FuLQu1Uo3NDuZ/view?usp=sharing)
+
+The segmentation results of retinal images from some other datasets.
+
+![Network Structure](./pics/other_data_1.jpg)
 
 ## Publication
 
