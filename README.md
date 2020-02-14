@@ -49,7 +49,8 @@ Enjoy fine-tunning!
 
 The segmentation results of retinal images from some other datasets.
 
-![Network Structure](./pics/other_data_1.jpg)
+![Segmentation Result](./pics/other_data_1.jpg)
+![Segmentation Result](./pics/other_data_2.jpg)
 
 ## Publication
 
