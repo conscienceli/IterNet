@@ -41,9 +41,7 @@ Models will be placed at `./trained_model/` and results will be saved at `./outp
 Three examples are given by Jupiter notebooks.
 
 ## Pretrained Weights
-Here is a model trained with multiple datasets. Now I am using it as an universal model for retinal vessel extraction. In my test, it works well on new data even with very different brightness, color, etc.
-
-Enjoy fine-tunning!
+Here is a model trained with multiple datasets (all images are used for training). Now I am using it for universal retinal vessel extraction. In my test, it works well on new data even with very different brightness, color, etc. In my case, no fine-tunning is needed.
 
 [https://drive.google.com/file/d/1N8Jd_h4FuxbN2-5ElL4FuLQu1Uo3NDuZ/view?usp=sharing](https://drive.google.com/file/d/1N8Jd_h4FuxbN2-5ElL4FuLQu1Uo3NDuZ/view?usp=sharing)
 
