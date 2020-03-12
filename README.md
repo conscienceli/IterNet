@@ -55,13 +55,12 @@ The segmentation results of retinal images from some other datasets.
 If you want to use this work, please consider citing the following paper.
 
 ```
-@misc{li2019iternet,
-    title={IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks},
-    author={Liangzhi Li and Manisha Verma and Yuta Nakashima and Hajime Nagahara and Ryo Kawasaki},
-    year={2019},
-    eprint={1912.05763},
-    archivePrefix={arXiv},
-    primaryClass={eess.IV}
+@InProceedings{Li_2020_WACV,
+    author = {Li, Liangzhi and Verma, Manisha and Nakashima, Yuta and Nagahara, Hajime and Kawasaki, Ryo},
+    title = {IterNet: Retinal Image Segmentation Utilizing Structural Redundancy in Vessel Networks},
+    booktitle = {The IEEE Winter Conference on Applications of Computer Vision (WACV)},
+    month = {March},
+    year = {2020}
 }
 ```
 
