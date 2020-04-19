@@ -64,6 +64,8 @@ If you want to use this work, please consider citing the following paper.
 }
 ```
 
+You can find PDF, poster, and talk video of this paper [here](https://www.liangzhili.com/publication/li-2020-iternet/).
+
 ## Acknowledgements
 
 This work was supported by Council for Science, Technology and Innovation (CSTI), cross-ministerial Strategic Innovation Promotion Program (SIP), "Innovative AI Hospital System" (Funding Agency: National Institute of Biomedical Innovation, Health and Nutrition (NIBIOHN)).
